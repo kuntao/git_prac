@@ -10,7 +10,7 @@ int main(void) {
   }
 
   for(i = 0; i < 26; i++) {
-    printf("%c\n", i + 'a');
+    printf("%c", i + 'a');
   }
 
   return 0;
