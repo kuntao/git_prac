@@ -9,5 +9,9 @@ int main(void) {
     printf("%d\n", i*3);
   }
 
+  for(i = 0; i < 26; i++) {
+    printf("%c\n", i + 'a');
+  }
+
   return 0;
 }
